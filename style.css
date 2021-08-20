@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section,.cotenedor{
+    background: rgba(173, 238, 232, 0.568);  
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    flex-flow: row wrap;
+    text-align: center;
+}
+
+.titulo_2{
+    font-size: 1cm;
+    font-style: oblique;
+}
+
+.texto-1{
+    font-style: normal;
+    font-size: 150%;
+}
+
+
+body{
+    background:mistyrose;
+}
+
+header,.section{
+   width: auto;
+    padding: 20px;
+    display: normal;
+    text-align: center;
+    font-style: italic;
+    font-size: 150%;
+    
+}
+
+.img_1{
+    max-width: 100%;
+    width: 675px;
+}
+
+
+header nav {
+    padding-top: 1%;
+    width: 150px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+ header nav a{
+    background: #101d0ba1;
+    color :burlywood;
+    text-decoration: none;
+    padding: 10px;
+    flex-grow: 1;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+header nav a:hover{
+    background: coral;
+  
+}
+
+footer{
+    padding-top: 2%;
+}
+
+.telefono,.email,.ubicacion{
+    padding-left: 50px;
+    height: 30px;
+    width: auto;
+    background: white;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.autor{
+    background: violet;
+    width: 500px;
+    height: 50px;
+    
+}
